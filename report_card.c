@@ -5,7 +5,7 @@ int main()
 	int kor, eng, math;
 	int sum = 0;
 
-	math = 80;
+	math = 90;
 	eng = 100;
 	kor = 95;
 	sum = math+eng+kor;
