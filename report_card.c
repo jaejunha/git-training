@@ -2,6 +2,7 @@
 
 int main()
 {
+	// variable
 	int kor, eng, math, his;
 	int sum = 0;
 
