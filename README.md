@@ -1,9 +1,12 @@
-# Git 사용법
-**origin** 에 관한 설명도 넣기...  
+# Git 사용법   
 ## 최신화 (항상 작업전 하기)
 - **원본 저장소로부터** 최신화 하기(**fork된 상태**)  
-아래 링크 참조  
-[\[Git\] Fork 한 repository 최신으로 동기화하기](https://json.postype.com/post/210431)
+**git remote add <원본 원격 저장소 별칭> <원본 원격 저장소 주소>** 명령어를 통해 원본 원격 저장소를 등록한다  
+(origin은 fork된 내 원격 저장소를 가르킨다)  
+![?](./figure/remote1_.png?raw=true)  
+  
+**git pull <원본 원격저장소 별칭> master** 명령어 사용
+![?](./figure/remote2_.png?raw=true)  
   
 - **master 브랜치로부터** 최신화 하기  
 **git pull origin master** 명령어 사용  
@@ -41,7 +44,10 @@ HEAD의 경우 현재 로컬에서 작업 한 내용이고
   
 ![?](./figure/conflict5.png?raw=true)    
   
-# Command
+# Command  
+- 원본 관련
+  - git remote -v: 저장소 확인
+  - git remote add <별칭> <주소>: 외부 저장소 등록
 - 브랜치 관련
   - git branch: 현재 branch 및 존재하는 branch 확인
   - git branch <이름>: <이름> branch를 하나 생성
