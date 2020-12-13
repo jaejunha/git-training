@@ -1,6 +1,12 @@
 # Git 사용법
   
+## 최신화
 ## 충돌
-![?](./figure/1.png?raw=true)
-conflict will occur
+발생하는 이유
+- 작업하기 전에 **pull**을 해서 파일들을 최신화하지 않고 작업하는 경우
+- 여러 사용자가 같은 파일을 같이 작업하다가 순서가 꼬인 경우
+<br>
+![?](./figure/1.png?raw=true)  
+충돌이 발생한 경우
+<br>
 # Command
