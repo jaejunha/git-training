@@ -1,7 +1,14 @@
 # Git 사용법
   
 ## 최신화
-## 충돌의 경우 브랜치 고려적기
+원본 저장소로부터 최신화 하기(fork된 상태)  
+blar  
+  
+master 브랜치로부터 최신화 하기  
+**git pull origin master**  
+  
+![?](./figure/git_pull_origin_master_.png?raw=true)  
+  
 ## 충돌
 발생하는 이유
 - 작업하기 전에 **pull**을 해서 파일들을 최신화하지 않고 작업하는 경우
