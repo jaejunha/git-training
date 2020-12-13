@@ -44,7 +44,10 @@ HEAD의 경우 현재 로컬에서 작업 한 내용이고
   
 ![?](./figure/conflict5.png?raw=true)    
   
-# Command
+# Command  
+- 원본 관련
+  - git remote -v: 저장소 확인
+  - git remote add <별칭> <주소>: 외부 저장소 등록
 - 브랜치 관련
   - git branch: 현재 branch 및 존재하는 branch 확인
   - git branch <이름>: <이름> branch를 하나 생성
