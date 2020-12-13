@@ -1,5 +1,5 @@
 # Git 사용법
-** origin ** 에 관한 설명도 넣기...  
+**origin** 에 관한 설명도 넣기...  
 ## 최신화 (항상 작업전 하기)
 - **원본 저장소로부터** 최신화 하기(**fork된 상태**)  
 아래 링크 참조  
@@ -19,7 +19,7 @@
 충돌이 발생할 경우 아래와 같이 에러가 발생한다
 ![?](./figure/conflict1_.png?raw=true)  
   
-**git pull origin <브랜치>**을 할 경우 git에서 자동으로 merge를 해준다  
+**git pull origin** <브랜치>를 할 경우 git에서 자동으로 merge를 해준다  
   
 ![?](./figure/conflict2_.png?raw=true)  
   
@@ -39,7 +39,7 @@ HEAD의 경우 현재 로컬에서 작업 한 내용이고
 **git commit -m "<내용>"**  
 **git push origin <브랜치>**  
   
-![?](./figure/conflict5_.png?raw=true)    
+![?](./figure/conflict5.png?raw=true)    
   
 # Command
 - 브랜치 관련
