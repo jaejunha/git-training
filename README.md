@@ -27,6 +27,11 @@
 서버로 올리고 **git log**를 통해 로그를 보면 잘 적용이 된 것을 확인 할 수 있다  
   
 ![?](./figure/6.png?raw=true)  
-**<  >**  
+**< 로그 상태 >**  
   
 # Command
+- 브랜치 관련
+  - git branch: 현재 branch 및 존재하는 branch 확인
+  - git branch <이름>: <이름> branch를 하나 생성
+  - git branch -d <이름>: <이름> branch를 제거
+  - git checkout <이름>: 현재 branch를 <이름> branch로 변경
