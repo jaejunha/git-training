@@ -7,7 +7,7 @@
   
 - **master 브랜치로부터** 최신화 하기  
 **git pull origin master** 명령어 사용  
-(명령어의 의미는 origin(=내 저장소)에 있는 master 브랜치로부터 코드를 가져오겠다는 의미)  
+(명령어의 의미는 origin(=내 원격 저장소)에 있는 master 브랜치로부터 코드를 가져오겠다는 의미)  
   
 ![?](./figure/git_pull_origin_master_.png?raw=true)  
   
