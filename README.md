@@ -25,7 +25,7 @@
 ## 최신화 (항상 작업전 하기)
 - **원본 저장소로부터** 최신화 하기(**fork된 상태**)  
 **git remote add <원본 원격 저장소 별칭> <원본 원격 저장소 주소>** 명령어를 통해 원본 원격 저장소를 등록한다  
-(origin은 fork된 내 원격 저장소를 가르킨다)  
+(origin은 fork된 원격 저장소를 가르킨다)  
 ![?](./figure/remote1_.png?raw=true)  
 **git pull <원본 원격저장소 별칭> master** 명령어 사용
 ![?](./figure/remote2_.png?raw=true)  
@@ -52,7 +52,7 @@ merge가 된 경우 아래와 같은 상태를 보여준다
 ![?](./figure/conflict3_.png?raw=true)  
   
 HEAD의 경우 현재 로컬에서 작업 한 내용이고  
-0~f로 된 경우 서버에 저장된 내용이다  
+0~f로(커밋 번호) 된 경우 서버에 저장된 내용이다  
   
 아래와 같이 수정을 해보았다    
   
