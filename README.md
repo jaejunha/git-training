@@ -4,14 +4,12 @@
 **git remote add <원본 원격 저장소 별칭> <원본 원격 저장소 주소>** 명령어를 통해 원본 원격 저장소를 등록한다  
 (origin은 fork된 내 원격 저장소를 가르킨다)  
 ![?](./figure/remote1_.png?raw=true)  
-  
 **git pull <원본 원격저장소 별칭> master** 명령어 사용
 ![?](./figure/remote2_.png?raw=true)  
   
 - **master 브랜치로부터** 최신화 하기  
 **git pull origin master** 명령어 사용  
 (명령어의 의미는 origin(=내 원격 저장소)에 있는 master 브랜치로부터 코드를 가져오겠다는 의미)  
-  
 ![?](./figure/git_pull_origin_master_.png?raw=true)  
   
 ## 충돌
